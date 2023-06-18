@@ -1,0 +1,370 @@
+.list1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.listItems {
+    margin: 20px;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(215, 222, 231);
+    margin: 0px;
+    border-radius: 20px;
+}
+
+#searchText {
+    height: 25px;
+    width: 150px;
+    top: 100px;
+    padding: 4px;
+    border: 2px solid rgb(30, 31, 30);
+    border-radius: 10px;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.search {
+    margin-left: 200px;
+    margin-top: 30px;
+    height: 30px;
+    width: 150px;
+
+}
+
+.list1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.loginForm {
+    float: right;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 57px;
+    /* margin-left: 400px; */
+    background-color: rgb(185, 192, 219);
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    height: 170px;
+    position: absolute;
+}
+
+.login1 {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+
+    padding: 4px;
+    height: 30px;
+}
+
+.logInButton {
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: azure;
+    cursor: pointer;
+
+}
+
+.logInButton:hover {
+    width: 120px;
+    height: 35px;
+}
+
+.belowNav {
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    margin-top: 20px;
+    border-radius: 40px;
+    background-image: url("https://www.cae.net/wp-content/uploads/2015/12/ventajas-plataforma-educativa-computer-aided-elearning-sector-educativo-1024x572.jpg");
+}
+
+.content {
+    width: 700px;
+    padding: 80px;
+
+
+
+}
+
+.startingPara {
+    color: rgb(16, 16, 27);
+    font-size: larger;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.novo {
+    font-size: smaller;
+    margin-top: 25px;
+    color: rgb(81, 81, 109);
+}
+
+.courseLabel {
+    font-family: sans-serif;
+}
+
+.options {
+    font-family: sans-serif;
+    font-size: smaller;
+
+}
+
+.select {
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+}
+
+.courseGrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    margin-top: 20px;
+
+
+}
+
+.grid-item {
+    /* background-color: red; */
+    height: 160px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 0px;
+}
+
+.course1 {
+    background-image: url("../public/almi.jpeg");
+    background-repeat: no-repeat;
+}
+
+.course2 {
+    background-image: url("../public/dsa.jpeg");
+
+}
+
+.course3 {
+    background-image: url("../public/web.jpeg");
+
+}
+
+.course4 {
+    background-image: url("../public/app.jpeg");
+
+}
+
+.course5 {
+    background-image: url("../public//game.jpeg");
+    margin-top: 100px;
+}
+
+.course1Para {
+    margin-top: 165px;
+    margin-left: 40px;
+    font-family: sans-serif;
+}
+
+.course2Para {
+    margin-top: 165px;
+    margin-left: 40px;
+    font-family: sans-serif;
+}
+
+.course3Para {
+    margin-top: 165px;
+    margin-left: 40px;
+    font-family: sans-serif;
+}
+
+.course4Para {
+    margin-top: 165px;
+    margin-left: 40px;
+    font-family: sans-serif;
+}
+
+.course5Para {
+    margin-top: 165px;
+    margin-left: 40px;
+    font-family: sans-serif;
+}
+
+.course1Button {
+    padding: 4px;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: azure;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.course2Button {
+    padding: 4px;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: azure;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.course3Button {
+    padding: 4px;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: azure;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.course4Button {
+    padding: 4px;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: azure;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.course5Button {
+    padding: 4px;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: azure;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.courseHeading {
+    margin-left: 500px;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(199, 196, 196);
+    margin-top: 50px;
+    border-radius: 15px;
+    height: 50px;
+}
+
+.social {
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.socialHeading {
+    font-family: sans-serif;
+}
+
+.handles a img {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.insta :hover {
+    animation: handlesAnimate 2s ease-out infinite;
+
+}
+
+.facebook :hover {
+    animation: handlesAnimate 2s ease-out infinite;
+
+}
+
+.twitter :hover {
+    animation: handlesAnimate 2s ease-out infinite;
+
+}
+
+@keyframes handlesAnimate {
+    0% {
+        scale: 1.5;
+    }
+
+    100% {
+        scale: 1.5;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+    }
+
+    .list1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .search {
+        margin-left: 50px;
+        margin-top: 0px;
+
+    }
+
+    .loginForm {
+        margin-top: 150px;
+
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .courseGrid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-item {
+        margin-bottom: 100px;
+    }
+
+    .courseHeading {
+        margin-left: 10px;
+    }
+
+    .course5 {
+        margin-bottom: 0px;
+    }
+
+    .course4 {
+        margin-bottom: 10px;
+    }
+
+    .socialHeading {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+
+.buttonHover {
+    border-color: #39ff14;
+}

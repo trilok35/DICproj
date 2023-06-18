@@ -1,0 +1,71 @@
+.videoaiml {
+    border-radius: 40px;
+    width: 500px;
+    height: 200px;
+}
+
+.container3 {
+    margin: 20px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.almlHeading {
+    font-family: sans-serif;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.demo {
+    font-family: sans-serif;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.videodiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#almlimage {
+    margin: 20px;
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.headingPara {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.learnHeading {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.endButton {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.buyButton {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buyButton:hover {
+    background-color: #45a049;
+}
